@@ -9,7 +9,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[Through this assignment, I learned how multithreading allows multiple tasks to run concurrently within the same program. I understood how to create threads in Java using the Runnable interface and how to start them using Thread.start(). I also learned about different thread states such as running, waiting, and terminated, especially when using methods like sleep() and join(). One important concept I learned is how threads share CPU time using scheduling algorithms like Round-Robin. I found it interesting how each process runs for a fixed time quantum and then yields the CPU to another process. This helped me understand how operating systems manage fairness between processes. Overall, I gained a clear understanding of how multithreading improves performance and responsiveness.]
 
 ---
 
