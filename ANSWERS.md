@@ -88,6 +88,7 @@ Round-Robin scheduling allows both background tasks and user interface threads t
 1. The difference between threads and processes
 2. How Round-Robin scheduling ensures fairness
 3. Thread lifecycle and execution states
+   
 **Concepts I need to study more:**
 1. Advanced thread synchronization techniques
 2. Deadlocks and how to prevent them
