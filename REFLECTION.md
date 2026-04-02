@@ -25,7 +25,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[To overcome these challenges, I followed a step-by-step debugging approach. First, I carefully reviewed my code to identify syntax and logical errors. I used the NetBeans IDE debugging and run features to test the program multiple times and observe the output. I also referred to the assignment instructions and re-read the code structure to understand where each feature should be implemented. Breaking the problem into smaller parts helped me focus on one issue at a time. I also tested each feature separately before combining everything together. This approach made it easier to fix errors and improve the code gradually.]
 
 ---
 
