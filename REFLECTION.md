@@ -17,7 +17,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+[The most challenging part of this assignment was implementing the waiting time feature correctly. It was difficult to understand how to track the time a process spends waiting in the ready queue across multiple cycles. Since processes are re-added to the queue multiple times, calculating the total waiting time required careful tracking of timestamps. I also faced some difficulty with small coding errors such as method naming and variable typos, which caused compilation issues. Additionally, understanding where exactly to update the waiting time in the scheduling loop was confusing at first. This challenge is directly related to understanding how scheduling works in operating systems. However, solving it helped me better understand process behavior and timing.]
 
 ---
 
