@@ -64,31 +64,30 @@ P1 reaches the Terminated state when it completes execution and its remainingTim
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Web Browser]
 
 **Description**: 
-[Describe the real-world scenario or application]
+A web browser handles multiple tasks at the same time, such as loading web pages, displaying images, running JavaScript, and processing user input. Each of these tasks can be managed by separate threads . This allows the browser to perform several operations concurrently without freezing.
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Round-Robin scheduling ensures that each task gets a fair share of CPU time. This prevents any single task (like loading a heavy image) from blocking other tasks such as scrolling or clicking. It improves responsiveness and provides a smooth user experience. The predictable time-sharing behavior also ensures that all tasks progress gradually.
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Mobile Application]
 
 **Description**: 
-[Describe the real-world scenario or application]
+Mobile applications often run multiple operations simultaneously, such as fetching data from the internet, updating the user interface, and handling user interactions. These operations are typically handled by different threads to keep the app responsive.
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+Round-Robin scheduling allows both background tasks and user interface threads to share CPU time fairly. This prevents the app from freezing when performing heavy tasks like data loading. It ensures that the user interface remains responsive while other operations continue in the background. This improves overall performance and user satisfaction.
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
-
+1. The difference between threads and processes
+2. How Round-Robin scheduling ensures fairness
+3. Thread lifecycle and execution states
 **Concepts I need to study more:**
-1. 
-2. 
+1. Advanced thread synchronization techniques
+2. Deadlocks and how to prevent them
